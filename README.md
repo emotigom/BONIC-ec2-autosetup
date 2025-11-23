@@ -1,10 +1,10 @@
 # BOINC EC2 Autosetup
 
-[🇬🇧 English](#-english) · [🇰🇷 한국어](#-한국어) · [🇫🇷 Français](#-français) · [🇪🇸 Español](#-español) · [🇨🇳 中文](#-中文)
+[🇬🇧 English](#english) · [🇰🇷 한국어](#한국어) · [🇫🇷 Français](#français) · [🇪🇸 Español](#español) · [🇨🇳 中文](#中文)
 
 ---
 
-## 🇬🇧 English
+#english
 
 Automatically install **BOINC** and attach multiple science projects on a fresh **Ubuntu EC2 instance**.
 
@@ -38,13 +38,14 @@ export CPDN_KEY="your-cpdn-key"
 chmod +x scripts/install-boinc-multi.sh
 ./scripts/install-boinc-multi.sh
 ```
+---
 
-🇰🇷 한국어
+## #한국어
 
 새로운 Ubuntu EC2 인스턴스에서 자동으로 BOINC를 설치하고
 여러 과학 프로젝트를 한 번에 연결해 주는 스크립트입니다.
 
-주요 기능
+### 주요 기능
 
 apt로 boinc-client 설치
 
@@ -64,13 +65,13 @@ DENIS@home
 
 ClimatePrediction.net (CPDN)
 
-사용 방법:
+### 사용 방법:
 
 수동 실행: SSH로 접속 후 스크립트 한 번 실행
 
 자동 실행: EC2 생성 시 User Data에 넣어 처음 부팅할 때 자동 실행
 
-빠른 시작 (수동 실행)
+### 빠른 시작 (수동 실행)
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/boinc-ec2-autosetup.git
@@ -85,13 +86,14 @@ export CPDN_KEY="본인-CPDN-키"
 chmod +x scripts/install-boinc-multi.sh
 ./scripts/install-boinc-multi.sh
 ```
+---
 
-🇪🇸 Español
+## #Español
 
 Este proyecto instala automáticamente BOINC y adjunta varios proyectos científicos
 en una nueva instancia Ubuntu EC2.
 
-Características
+### Características
 
 Instala boinc-client con apt
 
@@ -111,7 +113,7 @@ DENIS@home
 
 ClimatePrediction.net (CPDN)
 
-Inicio rápido (manual)
+### Inicio rápido (manual)
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/boinc-ec2-autosetup.git
@@ -126,13 +128,14 @@ export CPDN_KEY="tu-clave-cpdn"
 chmod +x scripts/install-boinc-multi.sh
 ./scripts/install-boinc-multi.sh
 ```
+---
 
-🇫🇷 Français
+## #Français
 
 Ce projet installe automatiquement BOINC et attache plusieurs projets scientifiques
 sur une nouvelle instance Ubuntu EC2.
 
-Fonctionnalités
+### Fonctionnalités
 
 Installation de boinc-client via apt
 
@@ -152,7 +155,7 @@ DENIS@home
 
 ClimatePrediction.net (CPDN)
 
-Démarrage rapide (manuel)
+### Démarrage rapide (manuel)
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/boinc-ec2-autosetup.git
@@ -167,13 +170,14 @@ export CPDN_KEY="votre-clé-cpdn"
 chmod +x scripts/install-boinc-multi.sh
 ./scripts/install-boinc-multi.sh
 ```
+---
 
-🇨🇳 中文
+## #中文
 
 这个项目可以在新的 Ubuntu EC2 实例 上自动安装 BOINC，
 并一次性连接多个科学计算项目。
 
-功能
+### 功能
 
 使用 apt 安装 boinc-client
 
@@ -193,7 +197,7 @@ DENIS@home
 
 ClimatePrediction.net (CPDN)
 
-快速开始（手动）
+### 快速开始（手动）
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/boinc-ec2-autosetup.git
@@ -208,3 +212,4 @@ export CPDN_KEY="你的-cpdn-密钥"
 chmod +x scripts/install-boinc-multi.sh
 ./scripts/install-boinc-multi.sh
 ```
+---
