@@ -1,4 +1,4 @@
-# BOINC EC2 Autosetup
+# BOINC EC2 Autosetup( cpu only )
 
 [🇬🇧 English](#english) · [🇰🇷 한국어](#한국어) · [🇫🇷 Français](#français) · [🇪🇸 Español](#español) · [🇨🇳 中文](#中文)
 
