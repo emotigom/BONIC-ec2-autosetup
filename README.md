@@ -1,5 +1,7 @@
 # BOINC EC2 Autosetup( cpu only )
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 [🇬🇧 English](#english) · [🇰🇷 한국어](#한국어) · [🇫🇷 Français](#français) · [🇪🇸 Español](#español) · [🇨🇳 中文](#中文)
 
 ---
@@ -213,3 +215,13 @@ chmod +x scripts/install-boinc-multi.sh
 ./scripts/install-boinc-multi.sh
 ```
 ---
+
+## License / 라이선스
+
+The automation scripts and documentation in this repository are available under the [MIT License](LICENSE). Anyone may use, copy, modify, merge, publish, distribute, sublicense, and sell copies under the license terms.
+
+BOINC, the BOINC client, and the connected scientific projects are third-party software and services governed by their respective licenses and terms.
+
+이 저장소의 자동화 스크립트와 문서는 [MIT 라이선스](LICENSE)로 공개됩니다. 라이선스 조건에 따라 누구나 사용·복사·수정·배포하고 상업적으로 이용할 수 있습니다.
+
+BOINC 클라이언트와 연결되는 각 과학 프로젝트에는 해당 프로젝트의 별도 라이선스 및 이용 조건이 적용됩니다.
